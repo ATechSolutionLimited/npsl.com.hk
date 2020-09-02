@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./npsl-landing-page.css" />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="./npsl-landing-page.js"></script>
+  </head>
+  <body>
+    <section id="head">
+      <nav id="navbar" class="navbar navbar-light bg-light">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+      <div id="wall">
+        <div class="title">
+          <div class="part1">首三十位申請</div>
+          <div class="part2">可享七天免費試用期</div>
+          <div class="part3">遠距離極速加聘程式開發專才</div>
+        </div>
+        <div id="free-trial-card" class="card default-shadow">
+          <div class="card-body">
+            <h5 class="card-title">只需要一點點訊息 . . . . . .</h5>
+            <form action="">
+              <div class="form-group">
+                <input type="text" class="form-control" aria-describedby="" placeholder="公司名稱">
+                <input type="email" class="form-control" aria-describedby="" placeholder="電郵">
+                <input type="tel" class="form-control" aria-describedby="" placeholder="聯絡電話">
+                <input type="text" class="form-control" aria-describedby="" placeholder="聯絡人名稱">
+                <button 
+                  type="button" 
+                  class="free-trial-submit-btn btn btn-primary btn-lg btn-block">
+                  領取七天免費試用
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="wallpaper">
+          <div style="height: 50%; overflow: hidden;" id="wave-container"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-25.11,174.17 C161.11,-2.45 346.22,157.39 521.16,-21.20 L501.41,154.44 L242.94,151.47 Z" style="stroke: none; fill: rgb(255, 255, 255); --darkreader-inline-stroke:none; --darkreader-inline-fill:#fff;" data-darkreader-inline-stroke="" data-darkreader-inline-fill=""></path></svg></div>
+        </div>
+      </div>
+    </section>
+    <section id="oversea-team" class="container-fluid">
+      <div class="row title-row">
+        <div class="title">
+          <div class="part1">建立你的海外程式開發團隊</div>
+          <div class="part2">用較低價錢聘請經驗豐富的海外程式開發員，解決軟體人才缺口問題。</div>
+        </div>
+      </div>
+      <div class="row promote-row">
+        <div class="col-xl-3 col-lg-3 col-md col-sm promote-col">
+          <img src="./assets/images/human-logo.jpg" alt="human-logo.jpg" class="promote-logo">
+          <div class="title">
+            <div class="part1">人材質素保證</div>
+            <div class="part2">所有程式開發員都經過親自挑選，<br/>一般都有5-6年工作經驗。</div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md col-sm promote-col">
+          <img src="./assets/images/tick-gear-logo.jpg" alt="tick-gear-logo.jpg" class="promote-logo">
+          <div class="title">
+            <div class="part1">程序輕鬆簡單</div>
+            <div class="part2">日常工作以外的行政事務都由我們包辦，<br/>節省時間人力！</div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md col-sm promote-col">
+          <img src="./assets/images/path-arrow-logo.jpg" alt="path-arrow-logo.jpg" class="promote-logo">
+          <div class="title">
+            <div class="part1">服務靈活彈性</div>
+            <div class="part2">用較低價錢聘請經驗豐富的海外程式開發員，<br/>解決軟體人才缺口問題。</div>
+          </div>
+        </div>
+      </div>
+      <div class="row button-row">
+        <a 
+          type="button" 
+          class="free-trial-submit-btn btn btn-primary btn-lg btn-block"
+          href="#free-trial-card"
+        >
+          領取七天免費試用
+        </a>
+      </div>
+      <div class="row companies-banner-row">
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 company-logo-col">
+          <img src="./assets/images/pernod-ricard-hk-logo.jpg" alt="pernod-ricard-hk-logo.jpg">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 company-logo-col">
+          <img src="./assets/images/toppan-forms-web-logo.png" alt="toppan-forms-web-logo.png">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 company-logo-col">
+          <img src="./assets/images/swire.jpg" alt="swire.jpg">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 company-logo-col">
+          <img src="./assets/images/welab.png" alt="welab.png">
+        </div>
+      </div>
+    </section>
+    <section id="get-to-work">
+      <div class="row title-row">
+        <div class="title">
+          <div class="part1">最快<span>七天</span>可以上班*</div>
+          <div class="part2">*時間視乎人才稀缺程度，由數天到兩星期不等</div>
+        </div>
+      </div>
+      <div class="row step-card-row">
+        <div class="step-card default-shadow">
+          <div class="step-bubble">1</div>
+          <div class="title">免費諮詢</div>
+          <div class="description">讓我們了解你的聘請需要，<br/>以便我們為您尋找適合的程式開發人選。</div>
+        </div>
+      </div>
+      <div class="row step-card-row">
+        <div class="step-card default-shadow">
+          <div class="step-bubble">2</div>
+          <div class="title">確定人選</div>
+          <div class="description">所有程式開發員都必須通過技術測試，<br/>我們亦可以根據你的需要，在安排遴選面試。</div>
+        </div>
+      </div>
+      <div class="row step-card-row">
+        <div class="step-card default-shadow">
+          <div class="step-bubble">3</div>
+          <div class="title">即聘即用</div>
+          <div class="description">確定人選後可以即時任用，以保證服務質素，<br/>我們設有一個月試用期。</div>
+        </div>
+      </div>
+    </section>
+    <section id="qna">
+      <div class="card qna-card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              海外程式開發人員在哪裏工作？
+            </button>
+          </h2>
+        </div>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#qna">
+          <div class="card-body">
+            程式開發員們會在我們印尼的分公司辦公室裏工作，工作期間受Time Doctor網上軟件監察，以確保每月工作時間達到176小時。
+          </div>
+        </div>
+      </div>
+      <div class="card qna-card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              如何確保該海外程式開發員能力符合我們的聘請要求？
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#qna">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card qna-card">
+        <div class="card-header" id="headingThree">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              可以聘請海外程式開發員到香港工作嗎？
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#qna">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card qna-card">
+        <div class="card-header" id="headingFour">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              你們可以代辦哪些行政手續？
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#qna">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+      <div class="card qna-card">
+        <div class="card-header" id="headingFive">
+          <h2 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              服務費用大約多少？
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#qna">
+          <div class="card-body">
+            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="member">
+      <div class="person-card">
+        <img class="person-bubble" src="./assets/images/profile-image.jpg" alt="profile-image.jpg"></img>
+        <div class="person-name">
+          Jackie Hui
+        </div>
+        <div class="title">
+          <div class="part1">Associate Director, Digital Solutions</div>
+          <div class="part2">Macroview Telecom Limited</div>
+        </div>
+        <div class="description">
+          NP Solution is a trustworthy recruitment partner. Its consultants are professional and good listeners. On one hand, they paid much attention to client's need from necessary skills to behavioral preference. On the other hand, they helped his candidates to establish suitable career paths. I had been a client of NP Solution and enjoyed the experience partnering with the company. 
+        </div>
+      </div>
+      <a 
+        type="button" 
+        class="free-trial-submit-btn btn btn-primary btn-lg btn-block"
+        href="#free-trial-card"
+      >
+        領取七天免費試用
+      </a>
+    </section>
+  </body>
+</html>
