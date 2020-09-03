@@ -45,7 +45,7 @@ section {
 }
 
 #wallpaper {
-  background-image: url('./assets/images/wallpaper.jpg');
+  background-image: url('../assets/images/wallpaper.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 90%;
