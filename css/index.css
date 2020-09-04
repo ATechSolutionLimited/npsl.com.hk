@@ -79,6 +79,7 @@ section {
 
 #wall {
   width: 100%;
+  min-height: 180px;
 }
 
 #wallpaper {
@@ -128,6 +129,8 @@ section {
   position: absolute !important;
   z-index: 200;
   right: 10%;
+  max-height: 100vh !important;
+  overflow: auto;
 }
 
 .free-trial-card .card-body {
@@ -500,7 +503,7 @@ footer {
   }
 
   #wallpaper {
-    min-height: 50vh;
+    /** min-height: 50vh; */
   }
 
   #head .free-trial-card {
