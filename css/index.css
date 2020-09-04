@@ -423,7 +423,6 @@ section {
   padding: 80px 40px 60px 40px;
   position: relative;
   margin-bottom: 60px;
-  max-height: 60vh;
 }
 
 .person-card .person-bubble {
@@ -455,6 +454,8 @@ section {
 .person-card .description{
   color: var(--text-black);
   overflow-y: auto;
+  min-height: 40px;
+  max-height: 40vh;
 }
 
 #member .free-trial-submit-btn {
