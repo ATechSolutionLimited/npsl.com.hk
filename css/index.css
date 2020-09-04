@@ -12,9 +12,6 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
 }
 
 /**
@@ -151,9 +148,9 @@ section {
   font-size: 1.6rem !important;
   padding: .8rem 1rem !important;
   border-radius: 10px !important;
-}
-
-.free-trial-submit-btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   border-color: rgba(0,0,0,0) !important;
   background: var(--main-orange) !important;
   background: linear-gradient(135deg, rgba(244,114,28,1) 0%, rgba(248,147,22,1) 50%, rgba(252,182,16,1) 98%) !important;
