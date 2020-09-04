@@ -12,6 +12,9 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /**
@@ -49,6 +52,10 @@ section {
   width: 180px;
   position: absolute;
   left: 150px;
+}
+
+#navbar .npsl-logo-img img {
+  width: 100% !important;
 }
 
 .phone-bar,
