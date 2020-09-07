@@ -60,7 +60,7 @@
           <div class="part2">可享七天免費試用期</div>
           <div class="part3">遠距離極速加聘程式開發專才</div>
         </div>
-        <div class="card default-shadow free-trial-card">
+        <div id="free-trial-card-pc" class="card default-shadow free-trial-card">
           <div class="card-body">
             <h5 class="card-title">只需要一點點訊息 . . . . . .</h5>
             <form action="https://formspree.io/xdowrrly" method="POST">
@@ -84,7 +84,7 @@
       </div>
     </section>
     <section id="mobile-tablet-form">
-      <div class="card default-shadow free-trial-card">
+      <div id="free-trial-card-mobile" class="card default-shadow free-trial-card">
         <div class="card-body">
           <h5 class="card-title">只需要一點點訊息 . . . . . .</h5>
           <form action="https://formspree.io/xdowrrly" method="POST">
@@ -136,8 +136,15 @@
       <div class="row button-row">
         <a 
           type="button" 
-          class="free-trial-submit-btn btn btn-primary btn-lg btn-block"
-          href="#free-trial-card"
+          class="free-trial-submit-btn free-trial-submit-btn-pc btn btn-primary btn-lg btn-block"
+          href="#free-trial-card-pc"
+        >
+          領取七天免費試用
+        </a>
+        <a 
+          type="button" 
+          class="free-trial-submit-btn free-trial-submit-btn-mobile btn btn-primary btn-lg btn-block"
+          href="#free-trial-card-mobile"
         >
           領取七天免費試用
         </a>
@@ -274,8 +281,15 @@
       </div>
       <a 
         type="button" 
-        class="free-trial-submit-btn btn btn-primary btn-lg btn-block"
-        href="#free-trial-card"
+        class="free-trial-submit-btn free-trial-submit-btn-pc btn btn-primary btn-lg btn-block"
+        href="#free-trial-card-pc"
+      >
+        領取七天免費試用
+      </a>
+      <a 
+        type="button" 
+        class="free-trial-submit-btn free-trial-submit-btn-mobile btn btn-primary btn-lg btn-block"
+        href="#free-trial-card-mobile"
       >
         領取七天免費試用
       </a>
