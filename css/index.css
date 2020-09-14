@@ -185,6 +185,71 @@ section {
   display: none;
 }
 
+#local-and-oversea .title-row, #local-and-oversea .comparison-row {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#local-and-oversea .title {
+  text-align: center;
+  color: var(--text-black);
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.comparison-card {
+  position: relative;
+  padding: 50px 10px 50px 10px;
+}
+
+.comparison-card .face-img {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate(-30px, -30px);
+  border-radius: 50%;
+}
+
+.comparison-card .row {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  border-color: #dedede;
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+}
+
+.comparison-card .name {
+  font-size: 2rem;
+  font-weight: 1000;
+  background: -webkit-linear-gradient(135deg, rgba(252,182,16,1) 0%, rgba(248,147,22,1) 50%, rgba(244,114,28,1) 98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.comparison-card .item {
+  font-size: 1.2rem;
+}
+
+#local-and-oversea .comparison-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#local-and-oversea .comparison-card {
+  width: 50%;
+}
+
 #oversea-team {
   padding-top: 40px;
 }
@@ -263,10 +328,11 @@ section {
 #oversea-team .company-logo-col{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #oversea-team .companies-banner-row img{
-  width: 100%;
+  width: 50%;
   filter: grayscale(1);
 }
 
@@ -632,6 +698,10 @@ footer {
 
   #oversea-team .company-logo-col{
     width: 50%;
+  }
+
+  #oversea-team .company-logo-col img{
+    width: 100%;
   }
 
   #get-to-work .title .part1 {
