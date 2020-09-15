@@ -381,6 +381,40 @@ section {
   font-size: 1rem;
 }
 
+#productivity .title-row {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#productivity .title {
+  text-align: center;
+  color: var(--text-black);
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#productivity .title-row .title {
+  font-size: 3rem;
+}
+
+#productivity .description-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#productivity .description-row img {
+  height: 240px;
+}
+
+#productivity .description-row .title {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
 #get-to-work {
   background-color: #f9f9f9;
   padding-top: 40px;
@@ -683,6 +717,10 @@ footer {
     font-size: 2rem !important;
   }
 
+  #productivity .title-row .title {
+    font-size: 2rem !important;
+  }
+
   .step-card {
     width: 80%;
   }
@@ -715,6 +753,11 @@ footer {
 
   #oversea-team .free-trial-submit-btn, #member .free-trial-submit-btn {
     width: 80%
+  }
+
+  #productivity .description-row .description {
+    text-align: center;
+    padding: 0px 30px 0px 30px;
   }
 
   footer {
