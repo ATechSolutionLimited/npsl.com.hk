@@ -1,0 +1,16 @@
+<svg width="420" height="420" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="422" width="422" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="1" height="600" width="800"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect fill-opacity="0" transform="rotate(-10 210.00001525878884,209.9999999999998) " rx="24" stroke="#f4721c" id="svg_1" height="171" width="389" y="124.5" x="15.50002" stroke-width="12.5" fill="#ffffff"/>
+  <text font-weight="bold" transform="rotate(-10 210.00769042968759,210.00001525878903) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="47" id="svg_3" y="226.50002" x="44.41394" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#f4721c">No Win No Fee</text>
+ </g>
+</svg>

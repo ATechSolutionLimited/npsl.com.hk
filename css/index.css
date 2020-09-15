@@ -203,7 +203,7 @@ section {
 
 .comparison-card {
   position: relative;
-  padding: 50px 10px 50px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 .comparison-card .face-img {
@@ -222,10 +222,12 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 60px;
+  height: fit-content;
   border-color: #dedede;
   border-style: solid;
   border-width: 0px 0px 2px 0px;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
 }
 
 .comparison-card .name {
@@ -334,6 +336,49 @@ section {
 #oversea-team .companies-banner-row img{
   width: 50%;
   filter: grayscale(1);
+}
+
+#why-us .title-row {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#why-us .title {
+  text-align: center;
+  color: var(--text-black);
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#why-us .title-row .title {
+  font-size: 3rem;
+}
+
+#why-us .why-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#why-us .why-col img {
+  width: 60%;
+}
+
+#why-us .why-col .title, #why-us .why-col .description {
+  margin-bottom: 20px;
+}
+
+#why-us .why-col .title {
+  font-size: 2rem;
+}
+
+#why-us .why-col .description {
+  color: var(--text-grey);
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 #get-to-work {
@@ -613,6 +658,15 @@ footer {
     display: block !important;
   }
 
+  #local-and-oversea .title-row .title {
+    font-size: 2rem !important;
+  }
+
+  #local-and-oversea .comparison-card {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
   #oversea-team .title .part1 {
     font-size: 2rem;
   }
@@ -623,6 +677,10 @@ footer {
 
   #oversea-team .free-trial-submit-btn, #member .free-trial-submit-btn {
     width: 50%
+  }
+
+  #why-us .title-row .title {
+    font-size: 2rem !important;
   }
 
   .step-card {
