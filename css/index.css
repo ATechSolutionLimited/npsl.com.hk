@@ -204,6 +204,7 @@ section {
 .comparison-card {
   position: relative;
   padding: 10px 10px 10px 10px;
+  height: 100%;
 }
 
 .comparison-card .face-img {
@@ -250,6 +251,49 @@ section {
 
 #local-and-oversea .comparison-card {
   width: 50%;
+}
+
+#indonesia .title-row {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#indonesia .title {
+  text-align: center;
+  color: var(--text-black);
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 3rem;
+}
+
+#indonesia .description-row {
+  width: 100%;
+  margin: 0px 0px 30px 0px;
+}
+
+#indonesia .description {
+  text-align: center;
+  color: var(--text-grey);
+  font-weight: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+#indonesia .logo-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#indonesia .logo {
+  width: 100%;
 }
 
 #oversea-team {
@@ -338,7 +382,7 @@ section {
   filter: grayscale(1);
 }
 
-#why-us .title-row {
+#why-us .title-row, .sub-title-row {
   width: 100%;
   margin: 0px 0px 30px 0px;
 }
@@ -379,6 +423,10 @@ section {
   color: var(--text-grey);
   font-weight: 600;
   font-size: 1rem;
+}
+
+#why-us .sub-title-row .title {
+  font-size: 2rem;
 }
 
 #productivity .title-row {
@@ -557,6 +605,10 @@ section {
   border-radius: 20px !important;
 }
 
+#qna .free-trial-submit-btn {
+  width: 30%;
+}
+
 #member {
   display: flex;
   flex-direction: column;
@@ -724,6 +776,10 @@ footer {
   .step-card {
     width: 80%;
   }
+
+  #qna .free-trial-submit-btn {
+    width: 50%;
+  }
 }
 
 /** Small devices (landscape phones, less than 768px) */
@@ -758,6 +814,10 @@ footer {
   #productivity .description-row .description {
     text-align: center;
     padding: 0px 30px 0px 30px;
+  }
+
+  #qna .free-trial-submit-btn {
+    width: 80%;
   }
 
   footer {
