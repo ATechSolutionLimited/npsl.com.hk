@@ -33,8 +33,23 @@ section {
 }
 */
 
+section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+section {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
 .container-fluid {
   padding: 0;
+}
+
+#head {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: #fff !important;
 }
 
 #navbar {
@@ -183,6 +198,7 @@ section {
 
 #mobile-tablet-form {
   display: none;
+  background-color: #fff !important;
 }
 
 #local-and-oversea .title-row, #local-and-oversea .comparison-row {
@@ -384,7 +400,7 @@ section {
 
 #why-us .title-row, .sub-title-row {
   width: 100%;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 30px 0px !important;
 }
 
 #why-us .title {
@@ -423,10 +439,31 @@ section {
   color: var(--text-grey);
   font-weight: 600;
   font-size: 1rem;
+  text-align: center;
 }
 
 #why-us .sub-title-row .title {
   font-size: 2rem;
+}
+
+#why-us .table-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100% !important;
+  margin: 0px !important;
+}
+
+#why-us .table-row .table {
+  width:50%;
+  text-align: center;
+}
+
+#why-us .table-caption {
+  color: var(--text-grey);
+  width: 100%;
+  text-align: center;
 }
 
 #productivity .title-row {
@@ -464,7 +501,7 @@ section {
 }
 
 #get-to-work {
-  background-color: #f9f9f9;
+  /* background-color: #f9f9f9; */
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -679,6 +716,11 @@ footer {
 
 /** Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  section {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
   #navbar .npsl-logo-img {
     width: 180px;
     position: absolute;
@@ -754,7 +796,7 @@ footer {
   }
 
   #oversea-team .title .part1 {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 
   #oversea-team .title .part2 {
@@ -766,6 +808,18 @@ footer {
   }
 
   #why-us .title-row .title {
+    font-size: 2rem !important;
+  }
+
+  #why-us .sub-title-row .title {
+    font-size: 1.5rem !important;
+  }
+
+  #why-us .why-col .title {
+    font-size: 1.5rem !important;
+  }
+
+  #indonesia .title-row .title {
     font-size: 2rem !important;
   }
 
@@ -784,6 +838,11 @@ footer {
 
 /** Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+
   #navbar {
     height: 80px;
     justify-content: space-between;
@@ -816,6 +875,10 @@ footer {
     padding: 0px 30px 0px 30px;
   }
 
+  #why-us .table {
+    width: 80% !important;
+  }
+
   #qna .free-trial-submit-btn {
     width: 80%;
   }
@@ -827,6 +890,11 @@ footer {
 
 /** Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  section {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
   #wall .title {
     transform: translate(0px, -40px);
   }
